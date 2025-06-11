@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
             "test_node = turtle_controller.my_first_node:main",
             "draw_circle = turtle_controller.draw_circle:main",
-            "pose_subscriber = turtle_controller.pose_subscriber:main"
+            "pose_subscriber = turtle_controller.pose_subscriber:main",
+            "turtle_controller = turtle_controller.turtle_controller:main"
         ],
     },
 )
